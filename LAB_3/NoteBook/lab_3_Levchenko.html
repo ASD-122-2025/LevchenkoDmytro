@@ -7546,7 +7546,7 @@ a.anchor-link {
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>  <span class="c1"># Закрыть фигуру, чтобы избежать проблем при следующем построении</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span> 
 </pre></div>
 </div>
 </div>
@@ -7591,7 +7591,7 @@ $$T(n) = \frac{n(n-1)}{2} = O(n^2)$$
             <span class="k">break</span>
     <span class="k">return</span> <span class="n">arr</span>
 
-<span class="c1"># Тестирование</span>
+
 <span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"вихідний масив:"</span><span class="p">,</span> <span class="n">arr</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Отсортированный:"</span><span class="p">,</span> <span class="n">bubble_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span>
@@ -7636,7 +7636,7 @@ $$T(n) = \frac{n(n-1)}{2} = O(n^2)$$<br/>
         <span class="n">arr</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span>
     <span class="k">return</span> <span class="n">arr</span>
 
-<span class="c1"># Тестирование</span>
+
 <span class="n">arr</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Вихідний масив:"</span><span class="p">,</span> <span class="n">arr</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Відсортований:"</span><span class="p">,</span> <span class="n">insertion_sort</span><span class="p">(</span><span class="n">arr</span><span class="p">))</span>
@@ -7751,6 +7751,109 @@ $$T(n) = \frac{n(n-1)}{2} = O(n^2)$$<br/>
 <li>Сортування вставками швидше на невеликих обсягах даних.</li>
 <li>Пухирцеве сортування повільніше і рідко використовується на практиці.</li>
 </ol>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0e9bbc80-8ec1-4717-bad0-b8ab4beca433">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D1%96-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F">Контрольні питання<a class="anchor-link" href="#%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D1%96-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F">¶</a></h1><ol>
+<li>Що таке O-нотація і чим вона відрізняється від Ω-нотації?</li>
+<li>Яку часову складність має алгоритм сортування методом вставляння за найсприятливіших умов, коли масив відсортовано? Відповідь обґрунтувати.</li>
+<li>Надати визначення ефективного алгоритму.</li>
+<li>Пояснити поняття головного параметра (розміру) завдання.</li>
+<li>Функція часової складності має вигляд: F(N) = N³ + 7N² − 14N. Як записати асимптотичну складність у O-нотації?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8f8abd96-2c9b-4255-98b7-3f6aa3f29845">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>1. Що таке O-нотація і чим вона відрізняється від Ω-нотації?</strong></p>
+<p><strong>O-нотація (Big-O)</strong> описує <strong>верхню межу</strong> росту функції — тобто, як швидко може зростати час виконання алгоритму в найгіршому випадку при збільшенні розміру вхідних даних.</p>
+<p><strong>Ω-нотація (Big-Omega)</strong> описує <strong>нижню межу</strong> — найкращий випадок, який показує, наскільки швидко <em>мінімально</em> може працювати алгоритм.</p>
+<ul>
+<li><strong>Big-O (O)</strong> → Найгірший випадок.</li>
+<li><strong>Big-Ω (Ω)</strong> → Найкращий випадок.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2f98f198-6f0f-4151-88d7-9b977c00fbe9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>2. Яку часову складність має алгоритм сортування методом вставляння за найсприятливіших умов, коли масив відсортовано?</strong></p>
+<p>У найкращому випадку, коли масив вже відсортовано, алгоритм вставляння виконує лише <strong>одне порівняння на кожному кроці</strong> та <strong>не робить перестановок</strong>.</p>
+<p><strong>Часова складність у найкращому випадку:</strong><br/>
+<strong>O(n)</strong> — лінійна складність.</p>
+<p><strong>Обґрунтування:</strong><br/>
+Порівняння кожного елемента з попереднім показує, що всі елементи вже на місцях. Не виконується жодного зсуву.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4d94ea55-9f18-4578-b4a9-c75a490026d2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>3. Надати визначення ефективного алгоритму.</strong></p>
+<p><strong>Ефективний алгоритм</strong> — це алгоритм, який виконує поставлене завдання за <strong>розумний обсяг часу та пам’яті</strong> відносно розміру вхідних даних.</p>
+<p>Він повинен:</p>
+<ul>
+<li>Мати прийнятну часову складність (наприклад, O(n log n) замість O(n²)).</li>
+<li>Використовувати мінімальний обсяг ресурсів.</li>
+<li>Масштабуватись при збільшенні розміру даних.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=08539a0a-c0d5-4c31-931d-6f48987396c0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>4. Пояснити поняття головного параметра (розміру) завдання.</strong></p>
+<p><strong>Головний параметр (розмір) завдання</strong> — це характеристика, яка визначає <strong>обсяг вхідних даних</strong>, що обробляються алгоритмом.</p>
+<p>Наприклад:</p>
+<ul>
+<li>Для масиву — це його <strong>довжина (n)</strong>.</li>
+<li>Для матриці — <strong>кількість рядків та стовпців</strong>.</li>
+<li>Для рядка — <strong>кількість символів</strong>.</li>
+</ul>
+<p>Цей параметр використовується для оцінки ефективності алгоритмів.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=644c21e4-6a6a-4b42-beb0-b0e4957bf494">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>5. Функція часової складності має вигляд:</strong></p>
+<p>F(N) = N³ + 7N² − 14N</p>
+<p><strong>Асимптотична складність у O-нотації:</strong></p>
+<p>Беремо <strong>домінуючий член</strong>, тобто найвищий ступінь змінної N, тому що при великих N інші доданки незначні.</p>
+<p><strong>Відповідь:</strong>
+<strong>O(N³)</strong></p>
 </div>
 </div>
 </div>
